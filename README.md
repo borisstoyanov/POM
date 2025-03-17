@@ -10,17 +10,20 @@ This project is an **automated test suite** for a simple shopping website using 
 - **Reusable methods** for better test scalability.  
 
 ## 📂 Project Structure  
+Pages:
 
-📦 playwright-shopping-tests
-┣ 📂 pages
-┃ ┣ 📜 catalogPage.ts      # Page Object for catalog interactions
+┃ ┣ 📜 catalogPage.ts # Page Object for catalog interactions
+
 ┃ ┣ 📜 basketPage.ts       # Page Object for basket interactions
+
 ┃ ┗ 📜 checkoutPage.ts     # Page Object for checkout interactions
+
+
 ┣ 📂 tests
+
 ┃ ┗ 📜 shopping.test.ts    # Test cases using the POM structure
-┣ 📜 README.md             # Project documentation
-┣ 📜 playwright.config.ts  # Playwright test configuration
-┗ 📜 package.json          # Dependencies and scripts
+
+
 
 
 Test Scenarios
